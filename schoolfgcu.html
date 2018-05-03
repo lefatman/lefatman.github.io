@@ -92,6 +92,8 @@
                 <div>
                     <div>
                         <h2>Welcome!</h2>Name: <input id="myText" name="fname" type="text" value="Mickey"><br>
+   			<label for="fname">name:</label>
+                        <input id="myText" name="fname" type="text" value="Mickey"><br>
                         <p>Click the button to recieve your welcome.</p><button onclick="nameFunc()">Try it</button>
                         <p id="henge"></p>
                     </div>
@@ -101,11 +103,12 @@
                         <h2>Temp Conversion</h2>
                         <p>Enter a Temperature to Convert in the field below and select the starting scale.</p>
                         <form action="#" id="tempForm" method="post" name="tempForm">
+                          <label for="txtTemp">Convert Temperature here:</label>
                             <input id="txtTemp" name="txtTemp" placeholder="Enter a Temperature" type="text" value=""><br>
                             <br>
-                            <input name="radTemp" type="radio" value="FC">Fahrenheit to Celcius<br>
+                            <input name="radTemp" type="radio" value="FC"><labe0l for="radTemp">Fahrenheit to Celcius</label><br>
                             <br>
-                            <input name="radTemp" type="radio" value="CF">Celcius to Fahrenheit<br>
+                            <input name="radTemp" type="radio" value="CF"><label for="">Celcius to Fahrenheit</label><br>
                             <br>
                         </form><br>
                         <br>
@@ -119,11 +122,12 @@
                         <h2>Rom Conversion</h2>
                         <p>Enter a Number to Convert in the field below and select a radio button to convert to or from roman numerals.</p>
                         <form action="#" id="romForm" method="post" name="romForm">
+                          <label for="txtRom">Convert Here:</label>
                             <input id="txtRom" name="txtRom" placeholder="Enter a Number" type="text" value=""><br>
                             <br>
-                            <input name="radRom" type="radio" value="to">Arabic# to Roman#<br>
+                            <input name="radRom" type="radio" value="to"><label for="radRom">Arabic# to Roman#</label><br>
                             <br>
-                            <input name="radRom" type="radio" value="from">Roman# to Arabic#<br>
+                            <input name="radRom" type="radio" value="from"><label for="radRom">Roman# to Arabic#</label><br>
                             <br>
                         </form><br>
                         <br>
