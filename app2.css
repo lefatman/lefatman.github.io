@@ -144,8 +144,12 @@ img{
 .wil-text-purple,.wil-hover-text-purple:hover{color:#9c27b0!important}
 .wil-text-deep-purple,.wil-hover-text-deep-purple:hover{color:#673ab7!important}
 .wil-text-white,.wil-hover-text-white:hover{color:#fff!important}
+.wil-black{color:#fff!important;background-color:#000!important}
 #main{
     margin-left:120px
+}
+svg{
+  fill:#fff;
 }
 @media only screen and (max-width:600px){
     #main{
